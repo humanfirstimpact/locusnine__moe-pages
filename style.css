@@ -1,0 +1,177 @@
+@media (min-width: 1440px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1230px;
+        box-sizing: content-box;
+    }
+}
+
+.btn-login {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.navbar-quicklinks .navbar-nav {
+    width: 482px;
+}
+
+.navbar-quicklinks .nav-item a {
+    font-size: 12px;
+    font-family: Avenir;
+    color: #424344;
+}
+
+.navbar-quicklinks .nav-item a img {
+    padding-right: 6px;
+}
+
+.navbar.navbar-main {
+    background: #09A86B;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-main .nav-item {
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.navbar-main .nav-item.active {
+    background: #DD555B;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    font-family: Avenir;
+}
+
+.service-header {
+    background: #BF9D62;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 24px;
+    font-family: Avenir;
+}
+
+.service-description {
+    font-size: 18px;
+    font-family: Avenir;
+}
+
+.btn-service-header {
+    font-size: 18px;
+    padding: 12px 20px;
+    font-family: Avenir;
+}
+
+.btn-white {
+    background: #fff;
+    color: #DD555B;
+}
+
+.btn-red {
+    color: #fff;
+    background: #DD555B;
+}
+
+.service-section h4 img {
+    padding-right: 10px;
+}
+
+.service-section h4 {
+    font-family: Avenir;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 27px;
+    color: #B58A40;
+    border-bottom: 1px solid #BF9D62;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.service-fees-value {
+    padding-top: 20px;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.service-section-left {
+    width: 735px;
+}
+
+.red-border {
+    border: 1px solid #DD555B;
+}
+
+.service-procedure-buttons-container .btn-red {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.service-procedure-buttons-container .btn-white {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.service-section-right {
+    width: 420px;
+    background: #bf9d6226;
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.service-section-right .list-group-item img {
+    margin-right: 20px;
+}
+
+.service-section-right .service-param {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B58A40;
+}
+
+.navbar-footer {
+    margin-top: 100px;
+    background-image: linear-gradient(0deg, #f9f6f0 90%, #09a86b 0%);
+}
+
+.required-documents .list-group-item img,
+.conditions .list-group-item img {
+    margin-right: 13px;
+}
+
+.required-documents .list-group-item .document-param {
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.required-documents .list-group-item .document-param-value {
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
