@@ -177,5 +177,27 @@ body {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
+}
 
+.link-red {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #DD555B;
+}
+
+.service-procedures ul li:before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    color: #BF9D62;
+}
+
+.required-documents ul li {
+    width: 50%;
 }
