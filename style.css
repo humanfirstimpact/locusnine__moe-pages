@@ -151,6 +151,9 @@ body {
 
 .navbar-footer {
     margin-top: 100px;
+}
+
+.navbar-footer-fake-image {
     background-image: linear-gradient(0deg, #f9f6f0 91%, #09a86b 0%);
 }
 
@@ -190,11 +193,16 @@ body {
 }
 
 .service-procedures ul li:before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
     color: #BF9D62;
 }
 
